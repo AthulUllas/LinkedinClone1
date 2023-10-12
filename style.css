@@ -1,0 +1,431 @@
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap:16px;
+    padding:0 4px;
+}
+.left-part{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 48px;
+    gap:11px;
+}
+.right-part{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap:24px;
+}
+.logo{
+    font-size: 40px;
+    color:#0a66a2;
+    cursor: pointer;
+}
+.search{
+    background:rgb(212, 233, 240);
+    display: flex;
+    align-items: center;
+    padding:8px;
+    gap: 8px;
+}
+.input-type{
+    width:240px;
+    border:none;
+    background: transparent;
+}
+body{
+    margin:0;
+    font-family: 'popins',sans-serif;
+}
+.icons{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+.down{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+}
+.premium{
+    text-decoration: none;
+    font-size: 13px;
+    width:112px;
+    text-align: center;
+    cursor:pointer;
+    color:gray;
+}
+.premium:hover{
+    text-decoration: underline;
+}
+.main-part{
+    width:100%;
+    height:1250px;
+    background:rgb(211, 207, 207);
+    margin:5px;
+    padding:40px;
+}
+.side-bar{
+    width:20%;
+    height:950px;
+    background:white;
+    float:left;
+    border-radius: 10px;
+    overflow: hidden;
+}
+.middle-bar{
+   width:50%;
+   height:950px;
+   background: white;
+   float:left;
+   margin-left:30px;
+   border-radius: 10px;
+   padding-left: 50px;
+}
+.right-bar{
+   width:20%;
+   height:535px;
+   background: white;
+   float:left;
+   margin-left: 30px;
+   border-radius: 10px;
+}
+.sidebar-top{
+    width:100%;
+    height:60px;
+    background:rgb(171, 179, 179);
+}
+.side-bar img{
+    position: relative;
+    left:37%;
+    top:30px;
+    border-radius: 50px;
+    width:80px;
+    height:80px;
+    border:2px solid #fff;
+}
+.side-bar .profile{
+    position:relative;
+    text-align: center;
+    top:10%;
+    display:flex ;
+    flex-direction: column;
+    gap:8px;
+    height: 7vh;
+}
+.side-bar .profile small{
+    font-size: 11px;
+    color:gray;
+}
+.side-bar .profile a{
+    text-decoration: none;
+    color:black;
+}
+.side-bar .profile a:hover{
+    text-decoration: underline;
+}
+.side-bar .connect{
+    position: relative;
+    display:flex ;
+    justify-content: space-between;
+    flex-direction: column;
+    padding: 0 1rem;
+    top:1%;
+    font-size: large;
+    width: 100%;
+}
+.side-bar .connection h6{
+    color:gray;
+    cursor: pointer;
+}
+.side-bar .connect h6{
+    color:gray;
+    cursor: pointer;
+}
+.side-bar .connection{
+    position: relative;
+    display:flex ;
+    justify-content: space-between;
+    flex-direction: column;
+    padding: 0 1rem;
+    top:7%;
+    font-size: large;
+    width: 100%;
+}
+.side-bar .connection h6:hover{
+    background: lightgray;
+}
+.side-bar .connect h6:hover{
+    background: lightgray;
+}
+.side-bar .access{
+    position: relative;
+    top:1%;
+    
+}
+.side-bar .access h6{
+    color: gray;
+}
+.side-bar .access a{
+    display: flex;
+    gap:8px;
+    align-items: center;
+    text-decoration: none;
+    margin-left: 16px;
+    color:black;
+    width:100%;
+}
+.side-bar .access a i{
+    color: rgb(248, 248, 53);
+}
+.side-bar .access:hover{
+    background: lightgray;
+}
+.items{
+    position: relative;
+    top:1%;
+    display: flex;
+    gap:8px;
+    margin-left: 16px;
+    color: gray;
+    width: 100%;
+}
+.side-bar .items i{
+    margin-top: 25px;
+
+}
+side-bar .items h6{
+    margin-left: 50px;
+    cursor: pointer;
+}
+.side-bar .items:hover{
+    background: lightgray;
+}
+.side-bar .recent .recents h6{
+    font-weight: 100;
+    margin: 16px;
+    color: gray;
+}
+.side-bar .recent .recents .data{
+    display: flex;
+    margin-top: 13px;
+    gap:8px;
+    color:gray;
+    padding-left:10px;
+    cursor: pointer;
+}
+.side-bar .recent .recents .data .i{
+    font-size: 14px;
+    margin-top: 10px;
+}
+.side-bar .recent .recents .data:hover{
+    background: rgb(219, 208, 208);
+}
+.side-bar .group .groups{
+    color:#0a66a2;
+    margin-left:10px;
+    cursor: pointer;
+}
+.side-bar .group .groups:hover{
+    text-decoration: underline;
+}
+.side-bar .group .datas{
+    display: flex;
+    margin-top: 13px;
+    gap:8px;
+    color:gray;
+    padding-left:10px;
+    cursor: pointer;
+}
+.side-bar .group .datas:hover{
+    background-color:rgb(219, 208, 208);
+}
+.side-bar .group .see{
+    display: flex;
+    margin-top: 13px;
+    gap:8px;
+    color:gray;
+    padding-left:10px;
+    cursor: pointer;
+}
+.side-bar .group .see:hover{
+    background:rgb(219, 208, 208);
+}
+.side-bar .group .events{
+    display: flex;
+    margin-top: 13px;
+    gap:8px;
+    color:gray;
+    padding-left:10px;
+    cursor: pointer;
+    color:#0a66a2;
+}
+.side-bar .group .events:hover{
+    text-decoration: underline;
+}
+.side-bar .group .follow{
+    display: flex;
+    margin-top: 13px;
+    gap:8px;
+    color:gray;
+    padding-left:10px;
+    cursor: pointer;
+    color:#0a66a2;
+}
+.side-bar .group .follow:hover{
+    text-decoration: underline;
+}
+.side-bar .discover{
+    display: flex;
+    margin-top: 13px;
+    gap:8px;
+    color:gray;
+    padding-left: 110px;
+    cursor: pointer;
+}
+.side-bar .discover:hover{
+    background:rgb(219, 208, 208);
+}
+.photo{
+    border-radius: 50px;
+    width:50px;
+    height:50px;
+    margin:20px;
+}
+.post{
+    border-radius: 50px;
+    width:500px;
+    height:60px;
+}
+.middle-bar .main-head{
+    display:flex;
+    gap:16px;
+    padding: 16px;
+    cursor: pointer;
+}
+.middle-bar .main-head img{
+    width:51px;
+    height:51px;
+    border-radius:50px;
+}
+.middle-bar .main-head input{
+    border-radius: 80px;
+    border: 1px solid gray;
+    width: 90%;
+    cursor: pointer;
+}
+.middle-bar .main-head input:hover{
+    background: rgb(245, 242, 242);
+}
+.media{
+    width:30%;
+    float:left;
+    display: flex;
+    cursor: pointer;
+}
+.event{
+    width:30%;
+    float: left;
+    display: flex;
+    cursor: pointer;
+}
+.article{
+    width:30%;
+    float: left;
+    display: flex;
+    cursor: pointer;
+}
+.right-bar .news{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin:16px;
+}
+.right-bar .latest{
+    margin-left: 20px;
+    cursor:pointer;
+}
+.right-bar .latest:hover{
+    background: rgb(228, 228, 228);
+}
+.right-bar .latest .one{
+    display: flex;
+    gap:24px;
+    align-items: center;
+}
+.right-bar .latest .one i{
+    font-size: 8px;
+    color: gray;
+}
+.right-bar .latest .two{
+    margin-left: 13px;
+    font-size: 12px;
+}
+.right-bar .show{
+    display:flex;
+    gap:8px;
+    color:gray;
+    align-items: center;
+    margin: 16px;
+    cursor:pointer;
+}
+.right-bar .show:hover{
+    background: rgb(230, 230, 230);
+}
+.middle-bar .photo{
+    display:flex;
+    gap:16px;
+    padding: 16px;
+    cursor: pointer;
+}    
+.middle-bar .photo img{
+    width:51px;
+    height:51px;
+    border-radius:50px;
+}
+.middle-bar .photo h5{
+    cursor: pointer;   
+}    
+.middle-bar .photo h5:hover{
+    color:#0a66a2;
+    text-decoration: underline;
+}
+.middle-bar .my img{
+    width:90%;
+    height:550px;
+}
+.like{
+    width:30%;
+    float:left;
+    display: flex;
+    cursor: pointer;
+}
+.comment{
+    width:30%;
+    float:left;
+    display: flex;
+    cursor: pointer;
+}
+.repost{
+    width:10%;
+    float:left;
+    display: flex;
+    cursor: pointer;
+}
+.share{
+    width:10%;
+    float:left;
+    display: flex;
+    cursor: pointer
+}    
+.middle-bar .actions{
+    margin-top: 40px;
+}
+.middle-bar .actions .share{
+    margin-left: 150px;
+}
